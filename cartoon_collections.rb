@@ -19,9 +19,9 @@ def find_the_cheese(food)
   if food.include?(cheese_types[0]) == TRUE 
     return cheese_types[0]
   elsif food.include?(cheese_types[1]) == TRUE 
-    return food.first(cheese_types[1])
+    return cheese_types[1]
   elsif food.include?(cheese_types[2]) == TRUE 
-    return food.first(cheese_types[2])
+    return cheese_types[2]
   else
     return NIL
   end
